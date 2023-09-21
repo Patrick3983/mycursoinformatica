@@ -4,16 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONVITE DA TURMA DE INFORMÁTICA</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url("https://www.leidainformatica.com/wp-content/uploads/2020/06/portarias-LI-scaled.jpg") no-repeat center/cover;
+        }
+        header {
+            background-color: transparent;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 25px;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.24);
+            overflow: hidden;
+            text-align: right;
+        }
+        nav a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .container {
+            border: 3px solid black;
+            margin: 100px 150px 100px 80px;
+            background-color: rgba(0, 0, 0, 0.63);
+        }
+        .content {
+            padding: 2rem;
+            color: #fff;
+            font-size: 20px;
+        }
+        h1 {
+            background-size: auto;
+            color: white;
+        }
+        button {
+            display: block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <header style="background-color: rgba(255, 0, 0, 0); color: white; text-align: center; padding: 1rem; font-size: 25px;">
+    <header>
         <h1><b>CONVITE ESPECIAL<br>DA TURMA<br><u>EM INFORMÁTICA</u><br>PARA VOCÊS.</b></h1>
     </header>
-    <nav style="background-color: rgba(0, 0, 0, 0.24); overflow: hidden;">
-        <a href="#" style="float: right; color: white; text-align: center; padding: 14px 16px; text-decoration: none;">Link</a>
+    <nav>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
     </nav>
-    <div style="border: 3px solid black; margin: 100px 150px 100px 80px; background-color: rgba(0, 0, 0, 0.63);">
-        <section style="padding: 2rem; color: #fff; font-size: 20px;">
+    <div class="container">
+        <div class="content">
             <h1>OLÁ, TUDO BEM?</h1>
             <h4>Convidamos você a assistir à nossa apresentação final<br>do Curso Técnico em Informática.</h4>
             <p>Você é nosso <b>Convidado Especial!</b><br>Data:<br><b><u>02/10 às 19h30</u></b><br>Local:<b>Senac, Auditório</b></p>
@@ -22,8 +76,8 @@
                 Os projetos foram criados através de códigos e impressora 3D.<br></p>
             <h3>Convide os seus amigos do Senac para assistirem juntos.</h3>
             <h5>TERÁ UM BRINDE SURPRESA, ENTÃO SERÁ ENTREGUE UM PAPEL NA SUA CHEGADA AO AUDITÓRIO, GUARDE COM VOCÊ.</h5>
-        </section>
+            <button>Botão</button>
+        </div>
     </div>
 </body>
 </html>
-
