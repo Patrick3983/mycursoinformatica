@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONVITE DA TURMA DE INFORMÁTICA</title>
+    <title>Convite Especial da Turma de Informática</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
         }
         header {
-            background-color: transparent;
+            background-color: #333;
             color: white;
             text-align: center;
             padding: 1rem;
-            font-size: 25px;
+            font-size: 2rem;
         }
         nav {
-            background-color: rgba(0, 0, 0, 0.24);
+            background-color: #333;
             overflow: hidden;
             text-align: right;
         }
@@ -29,36 +30,46 @@
             text-decoration: none;
         }
         nav a:hover {
-            background-color: #ddd;
+            background-color: #555;
         }
         .container {
-            border: 3px solid black;
-            margin: 100px 150px 100px 80px;
-            background-color: rgba(0, 0, 0, 0.63);
+            border: 3px solid #333;
+            margin: 50px auto;
+            max-width: 800px;
+            background-color: #444;
+            padding: 20px;
+            text-align: center;
         }
         .content {
-            padding: 2rem;
             color: #fff;
-            font-size: 20px;
+            font-size: 1.2rem;
+            line-height: 1.5;
         }
         h1 {
-            background-size: auto;
-            color: white;
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #fff;
+            font-size: 2rem;
+            margin-top: 20px;
         }
         button {
-            display: block;
-            margin-top: 10px;
+            margin-top: 20px;
             padding: 10px 20px;
             background-color: #fff;
-            color: #000;
+            color: #333;
             border: none;
             cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1><b>CONVITE ESPECIAL<br>DA TURMA<br><u>EM INFORMÁTICA</u><br>PARA VOCÊS.</b></h1>
+        <h1>Convite Especial da Turma de Informática</h1>
     </header>
     <nav>
         <a href="#">Link 1</a>
@@ -68,15 +79,17 @@
     <div class="container">
         <div class="content">
             <h1>OLÁ, TUDO BEM?</h1>
-            <h4>Convidamos você a assistir à nossa apresentação final<br>do Curso Técnico em Informática.</h4>
-            <p>Você é nosso <b>Convidado Especial!</b><br>Data:<br><b><u>02/10 às 19h30</u></b><br>Local:<b>Senac, Auditório</b></p>
-            <h2>O QUE SERÁ APRESENTADO ?</h2>
-            <p>Serão apresentados projetos voltados ao público.<br>
-                Os projetos foram criados através de códigos e impressora 3D.<br></p>
-            <h3>Convide os seus amigos do Senac para assistirem juntos.</h3>
-            <h5>TERÁ UM BRINDE SURPRESA, ENTÃO SERÁ ENTREGUE UM PAPEL NA SUA CHEGADA AO AUDITÓRIO, GUARDE COM VOCÊ.</h5>
-            <button>Botão</button>
+            <p>Convidamos você para a nossa apresentação final do Curso Técnico em Informática.</p>
+            <p>Você é nosso <strong>Convidado Especial!</strong></p>
+            <p>Data: <strong>02/10 às 19h30</strong></p>
+            <p>Local: <strong>Senac, Auditório</strong></p>
+            <h2>O QUE SERÁ APRESENTADO?</h2>
+            <p>Serão apresentados projetos incríveis voltados ao público, criados através de códigos e impressora 3D.</p>
+            <h3>Convide seus amigos do Senac para assistirem juntos.</h3>
+            <p>Teremos um <strong>BRINDE SURPRESA</strong> para você. Guarde o papel que será entregue na sua chegada ao auditório.</p>
+            <button>RSVP</button>
         </div>
     </div>
 </body>
 </html>
+
