@@ -1,95 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convite Especial da Turma de Informática</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-            font-size: 2rem;
-        }
-        nav {
-            background-color: #333;
-            overflow: hidden;
-            text-align: right;
-        }
-        nav a {
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #555;
-        }
-        .container {
-            border: 3px solid #333;
-            margin: 50px auto;
-            max-width: 800px;
-            background-color: #444;
-            padding: 20px;
-            text-align: center;
-        }
-        .content {
-            color: #fff;
-            font-size: 1.2rem;
-            line-height: 1.5;
-        }
-        h1 {
-            color: #fff;
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        h2 {
-            color: #fff;
-            font-size: 2rem;
-            margin-top: 20px;
-        }
-        button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #fff;
-            color: #333;
-            border: none;
-            cursor: pointer;
-            font-size: 1rem;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Formulário Simples</title>
 </head>
 <body>
-    <header>
-        <h1>Convite Especial da Turma de Informática</h1>
-    </header>
-    <nav>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-    </nav>
-    <div class="container">
-        <div class="content">
-            <h1>OLÁ, TUDO BEM?</h1>
-            <p>Convidamos você para a nossa apresentação final do Curso Técnico em Informática.</p>
-            <p>Você é nosso <strong>Convidado Especial!</strong></p>
-            <p>Data: <strong>02/10 às 19h30</strong></p>
-            <p>Local: <strong>Senac, Auditório</strong></p>
-            <h2>O QUE SERÁ APRESENTADO?</h2>
-            <p>Serão apresentados projetos incríveis voltados ao público, criados através de códigos e impressora 3D.</p>
-            <h3>Convide seus amigos do Senac para assistirem juntos.</h3>
-            <p>Teremos um <strong>BRINDE SURPRESA</strong> para você. Guarde o papel que será entregue na sua chegada ao auditório.</p>
-            <button>RSVP</button>
-        </div>
-    </div>
+
+<h2>Formulário de Exemplo</h2>
+
+<form action="/processar-formulario" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
 </body>
 </html>
+
 
